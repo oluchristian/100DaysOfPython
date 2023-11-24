@@ -1,0 +1,1 @@
+A secured Password generator script that generates and shuffles passwords based on numbers, characters and letters
