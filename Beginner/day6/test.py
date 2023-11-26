@@ -1,0 +1,6 @@
+record = (1, 'apple', True, 3.14, [1, 2, 3])
+print(record[0])
+print(record[1])
+print(record[2])
+print(record[3])
+print(record[4])
