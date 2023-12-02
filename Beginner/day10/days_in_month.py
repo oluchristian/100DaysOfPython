@@ -10,8 +10,10 @@ def is_leap(year):
   else:
     return False
 def days_in_month(input_year, input_month):
+  '''This is a documentation for days in month'''
   status = is_leap(input_year)
   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+  len(month_days)
   if status:
     month_days[1] = 29
   return month_days[input_month -1]
